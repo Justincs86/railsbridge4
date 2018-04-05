@@ -6,8 +6,9 @@ Rails.application.routes.draw do
   resources :topics do
     member do
       post 'upvote'
+      post 'devote'
     end
   end
 
-  
+
 end
